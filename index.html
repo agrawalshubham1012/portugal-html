@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Portugal Stats | Home</title>
+      <!-- Bootstrap 5 -->
+      <link href="css/bootstrap.min.css" rel="stylesheet" />
+      <!-- Fontawesome css -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+      <!-- Custom CSS -->
+      <link rel="stylesheet" href="css/main.css" />
+      <link rel="stylesheet" href="css/responsive.css" />
+	 
+	  
+   </head>
+   <body>
+      <!-- --------------NAVBAR Starts----------------- -->
+      <nav>
+         <div class="container">
+            <!-- ---------Large Screen Navbar Starts--------- -->
+            <div class="main-nav">
+               <div class="left-nav">
+                  <a href="index.html" class="logo">
+                  <img src="images/portugal-logo.png" alt="" />
+                  <span class="d-md-inline-block d-none"></span>
+                  </a>
+                  <ul class="nav-menu d-xl-flex d-none">
+                     <li>
+                        <a href="index.html" class="active">Home</a>
+                     </li>
+                     <li>
+                        <a href="">Key Indicators</a>
+                     </li>
+                     <li>
+                        <a href="">About Us</a>
+                     </li>
+                     <li>
+                        <a href="">Contact Us</a>
+                     </li>
+                  </ul>
+               </div>
+               <div class="right-nav">
+                  <a href="" data-bs-toggle="modal" data-bs-target="#searchModal" class="searchIcon"><img src="images/searchicon.svg" alt=""/></a> 
+                  <div class="languageBox">
+                     <div class="d-sm-flex">
+                        <ul class="nav ml-lg-2 align-self-center">
+                           <li>
+                              <div class="drop">
+                                 <span><img src="images/languageicon.svg" alt=""/></span>
+                                 <i class="fas fa-chevron-down"></i>
+                              </div>
+                              <div class="drop-box">
+                                 <div class="menu">
+                                    <ul>
+                                       <li><a href="">Prt</span></a></li>
+                                       <li><a href="">En</span></a></li>
+                                    </ul>
+                                 </div>
+                              </div>
+                           </li>
+                        </ul>
+                     </div>
+                     <span class="login__user"><img src="images/prt-flag.png" alt=""/> PRT</span>
+                  </div>
+               </div>
+               <button id="menu__toggler" class="d-xl-none d-block">
+               <span></span>
+               <span></span>
+               <span></span>
+               </button>
+            </div>
+         </div>
+         <!-- Large Screen Navbar Ends -->
+         </div>
+      </nav>
+      <!-- MOBILE MENU starts -->
+      <div class="mobile-nav">
+         <ul class="mobile-nav-menu">
+            <li>
+               <a href="index.html" class="active">Home</a>
+            </li>
+            <li>
+               <a href="">Key Indicators</a>
+            </li>
+            <li>
+               <a href="">About Us</a>
+            </li>
+            <li>
+               <a href="">Contact Us</a>
+            </li>
+         </ul>
+      </div>
+      <!-- Mobile menu ends -->
+      <!-- Navbar Ends -->
+      <section class="banner-sectionHero">
+         <div class="container">
+            <div class="row align-item-center">
+               <div class="col-md-7">
+                  <div class="headBanner">
+                     <h1 class="firstline">Discover <span>Statistical</span></h1>
+                     <h1 class="secondline">Insights for <span> Portuguese</span> </h1>
+                     <h1>Businesses</h1>
+                  </div>
+                  <p>Stay informed with the latest statistics and business data. Our platform provides comprehensive and up-to-date information to help you make data-driven decisions and stay ahead in the market.</p>
+                  <a href="" class="discoverBtn">Discover Now</a>
+               </div>
+               <div class="col-md-5">
+                  <img src="images/righthero-img.svg" alt="" class="rightHeroImage" />
+               </div>
+            </div>
+         </div>
+      </section>
+      <section class="datapoint">
+         <div class="container">
+            <div class="row headingAbout align-item-center justify-content-center text-center">
+               <div class="col-md-12">
+                  <h6>Vital Data Points</h6>
+                  <h3>Tracking Portugal's Economic Pulse</h3>
+               </div>
+            </div>
+            <div class="row headingAbout align-item-center justify-content-center mt-3">
+               <div class="col-md-4">
+                  <div class="dataPointBox">
+                     <h5>Inflation Rate <span>2024-05</span></h5>
+                     <div class="iconRatio">
+                        <img src="images/boxicon1.svg" alt=""/>
+                        <h2>0.8%</h2>
+                     </div>
+                     <p>Keep track of cost of living changes with real-time updates on inflation rates</p>
+                     <a href="" class="learnMoreBtn">Learn More</a>
+                  </div>
+               </div>
+               <div class="col-md-4">
+                  <div class="dataPointBox">
+                     <h5>GDP Growth <span>2024-04</span></h5>
+                     <div class="iconRatio">
+                        <img src="images/boxicon2.svg" alt=""/>
+                        <h2>0.4%</h2>
+                     </div>
+                     <p>Understand Portugal's economic progress through detailed insights into GDP growth patterns.</p>
+                     <a href="" class="learnMoreBtn">Explore Data</a>
+                  </div>
+               </div>
+               <div class="col-md-4">
+                  <div class="dataPointBox">
+                     <h5>Unemployment Rate <span>2024-04</span></h5>
+                     <div class="iconRatio">
+                        <img src="images/boxicon3.svg" alt=""/>
+                        <h2>1.3%</h2>
+                     </div>
+                     <p>Stay informed about job market dynamics and employment opportunities in Portugal.</p>
+                     <a href="" class="learnMoreBtn">Dive Deeper</a>
+                  </div>
+               </div>
+               <div class="col-md-4">
+                  <div class="dataPointBox">
+                     <h5>House Price Growth <span>2024-04</span></h5>
+                     <div class="iconRatio">
+                        <img src="images/boxicon4.svg" alt=""/>
+                        <h2>1.3%</h2>
+                     </div>
+                     <p>Follow trends in real estate investment with data on Portugal's house price growth.</p>
+                     <a href="" class="learnMoreBtn">Discover Trends</a>
+                  </div>
+               </div>
+               <div class="col-md-4">
+                  <div class="dataPointBox">
+                     <h5>Population <span>2024-04</span></h5>
+                     <div class="iconRatio">
+                        <img src="images/boxicon5.svg" alt=""/>
+                        <h2>2.1%</h2>
+                     </div>
+                     <p>Explore demographic shifts and population trends driving Portugal's social and economic landscape.</p>
+                     <a href="" class="learnMoreBtn">Explore Insights</a>
+                  </div>
+               </div>
+               <div class="col-md-4">
+                  <div class="dataPointBox">
+                     <h5>Energy Inflation Rate <span>2024-04</span></h5>
+                     <div class="iconRatio">
+                        <img src="images/boxicon6.svg" alt=""/>
+                        <h2>0.8%</h2>
+                     </div>
+                     <p> Monitor energy cost fluctuations and their impact on Portugal's economic stability.</p>
+                     <a href="" class="learnMoreBtn">Gain Insights</a>
+                  </div>
+               </div>
+            </div>
+            <div class="row align-item-center justify-content-center mt-3">
+               <div class="col-md-6 text-center"> 
+                  <a href="" class="viewMoreBtn">View More</a>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section class="faqBox">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-6">
+                  <h3>Frequently <Br> Asked Question</h3>
+               </div>
+            </div>
+            <div class="row mt-3">
+               <div class="col-md-12">
+                  <div class="accordion panel-group" id="accordionExample">
+					<div class="accordion-item">
+					  <h2 class="accordion-header panel-heading">
+						<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+						  What kind of data do you provide?
+						</button>
+					  </h2>
+					  <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+						<div class="accordion-body">
+						  Our data is updated regularly to ensure accuracy and relevance. Updates typically occur on a monthly basis, with real-time updates for key economic indicators.
+						</div>
+					  </div>
+					</div>
+					
+					<div class="accordion-item">
+					  <h2 class="accordion-header panel-heading">
+						<button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+						  How frequently is the data updated?
+						</button>
+					  </h2>
+					  <div id="collapseTwo" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+						<div class="accordion-body">
+						  Our data is updated regularly to ensure accuracy and relevance. Updates typically occur on a monthly basis, with real-time updates for key economic indicators.
+						</div>
+					  </div>
+					</div>
+					
+					<div class="accordion-item">
+					  <h2 class="accordion-header panel-heading">
+						<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsethree" aria-expanded="false" aria-controls="collapsethree">
+						  What kind of data do you provide?
+						</button>
+					  </h2>
+					  <div id="collapsethree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+						<div class="accordion-body">
+						  Our data is updated regularly to ensure accuracy and relevance. Updates typically occur on a monthly basis, with real-time updates for key economic indicators.
+						</div>
+					  </div>
+					</div>
+					
+					<div class="accordion-item">
+					  <h2 class="accordion-header panel-heading">
+						<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsefour" aria-expanded="false" aria-controls="collapsefour">
+						  How can I interpret the data?
+						</button>
+					  </h2>
+					  <div id="collapsefour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+						<div class="accordion-body">
+						  Our data is updated regularly to ensure accuracy and relevance. Updates typically occur on a monthly basis, with real-time updates for key economic indicators.
+						</div>
+					  </div>
+					</div>
+					
+					<div class="accordion-item">
+					  <h2 class="accordion-header panel-heading">
+						<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsefive" aria-expanded="false" aria-controls="collapsefive">
+						  What data sources do you rely on?
+						</button>
+					  </h2>
+					  <div id="collapsefive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+						<div class="accordion-body">
+						  Our data is updated regularly to ensure accuracy and relevance. Updates typically occur on a monthly basis, with real-time updates for key economic indicators.
+						</div>
+					  </div>
+					</div>
+					
+				  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+	  
+	  
+	  
+	  <footer class="footerFirst">
+	    <div class="container">
+		   <div class="row">
+		       <div class="col-md-7">
+			      <div class="footerLogo">
+				    <img src="images/footerlogo.svg" alt=""/>
+				    <p>we are passionate about leveraging the power of data to drive informed decision-making and foster growth in Portugal. Our mission is to provide accessible and comprehensive business and statistical insights that empower individuals and organizations to succeed in today's dynamic landscape. Join us in shaping the future of data-driven innovation and progress</p>
+				 </div>	
+			   </div>
+			   <div class="col-md-5">
+			      <div class="newsletter">
+				     <span><img src="images/footermailicon.svg" alt=""/></span>
+					 <div class="newsletterInputBox">
+					   <input type="text" class="" placeholder="Enter Email*"/>
+					   <button type="submit" class=""><i class="fa-solid fa-arrow-right"></i></button>
+					 </div>
+					 
+				  </div>
+			   </div>
+		   </div>
+		   <div class="row">
+		     <div class="col-md-12">
+			    <p class="copyright">© 2024 | All Rights Reserved | Powered by Kash Designer </p>
+			 </div>
+		   </div>
+		</div>
+	  </footer>
+	  
+	  
+	  <!---- Second Footer Code Comment for Future Use ------->
+	      <!--<footer class="footerSecond">
+			<div class="container">
+			   <div class="row">
+				   <div class="col-md-12 col-lg-5">
+					  <div class="footerLogo">
+						<img src="images/footerlogo.svg" alt=""/>
+						<p>we are passionate about leveraging the power of data to drive informed decision-making and foster growth in Portugal. Our mission is to provide accessible and comprehensive business and statistical insights that empower individuals and organizations to succeed in today's dynamic landscape. Join us in shaping the future of data-driven innovation and progress</p>
+						
+						<ul class="sociaMedia">
+						  <li><a href=""><i class="fa-brands fa-facebook"></i></a></li>
+						  <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+						  <li><a href=""><i class="fa-brands fa-whatsapp"></i></a></li>
+						  <li><a href=""><i class="fa-brands fa-telegram"></i></a></li>
+						  <li><a href=""><i class="fa-brands fa-x-twitter"></i></a></li>
+						<ul>
+					 </div>	
+				   </div>
+				   <div class="col-md-12 col-lg-7">
+					  <div class="newsletter">
+						 <span class="enterMail">
+						   <img src="images/footermailicon.svg" alt=""/>
+						    <div class="mailTtx">
+							  <p>Enter Your Email</p>
+						      <small>Our colleagues will contact you soon</small>
+							</div>  
+						 </span>
+						 <div class="newsletterInputBox">
+						   <input type="text" class="" placeholder="Enter Email*"/>
+						   <button type="submit" class=""><i class="fa-solid fa-arrow-right"></i></button>
+						 </div>
+					  </div>
+					  <div class="row mt-5">
+					     <div class="col-md-12 col-lg-6">
+						    <h6 class="footerHead">Useful links </h6>
+							<ul class="footerMenu">
+							   <li><a href=""><i class="fa-solid fa-chevron-right"></i> Home</a></li>
+							   <li><a href=""><i class="fa-solid fa-chevron-right"></i> Charts</a></li>
+							   <li><a href=""><i class="fa-solid fa-chevron-right"></i> About US</a></li>
+							   <li><a href=""><i class="fa-solid fa-chevron-right"></i> Contact US</a></li>
+							</ul>
+						 </div>
+						 <div class="col-md-12 col-lg-6">
+						    <h6 class="footerHead">Contact Us </h6>
+							<div class="addressBox">
+							  <h6>Portuguese Address</h6>
+							  <p>Churchill Executive Tower, Business Bay, Portugues, PRT P.O.Box: 001122</p>
+							</div>
+							<div class="addressBox">
+							  <h6>Pakistan</h6>
+							  <p>Chandni Chowk Near Rehmanabad, Islamabad, Pakistan</p>
+							</div>
+						 </div>
+					  </div>
+				   </div>
+			   </div>
+			   <div class="row">
+				 <div class="col-md-12">
+					<p class="copyright">© 2024 | All Rights Reserved | Powered by Kash Designer </p>
+				 </div>
+			   </div>
+			</div>
+		  </footer>-->
+	  <!---- Second Footer Code End ----->
+	  
+	  
+	  
+	  
+	  <!-- Modal -->
+	<div class="modal fade" id="searchModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+	  <div class="modal-dialog">
+		<div class="modal-content">
+		  <div class="modal-header">
+			<h5 class="modal-title" id="exampleModalLabel">Search</h5>
+			<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+			  <img src="images/closeIcon.svg" alt=""/>
+			</button>
+		  </div>
+		  <div class="modal-body">
+			<div class="searchBox">
+			  <input class="" placeholder=""/>
+			  <i class=""><img src="images/searchicon.svg" alt=""/></i>
+			</div>
+		  </div>
+		</div>
+	  </div>
+	</div>
+	  
+      <!-- jQuery -->
+      <script src="js/jquery-3.6.0.min.js"></script>
+      <!-- Bootstrap js -->
+      <script src="js/bootstrap.min.js"></script>
+      <!-- Custom JS -->
+      <script src="js/custom.js"></script>
+	  
+      <script>
+         const drop = document.querySelector(".drop");
+            const dropBox = document.querySelector(".drop-box");
+            var state = false;
+            drop.addEventListener('click',show);
+            function show(){
+               if(!state){
+                  document.querySelector(".drop i").classList.add("active");
+                  dropBox.classList.add("active");
+                  state = true;
+               }else{
+                  document.querySelector(".drop i").classList.remove("active");
+                  dropBox.classList.remove("active");
+                  state = false;
+            }
+         }
+      </script>
+   </body>
+</html>
